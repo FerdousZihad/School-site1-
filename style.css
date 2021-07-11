@@ -1,0 +1,130 @@
+img {
+        max-width: 100%;
+}
+
+header {
+        background: linear-gradient(rgb(135, 135, 201), rgb(255, 4, 159), #fff);
+
+}
+
+header .navbar-brand img {
+        max-width: 200px;
+        ;
+}
+
+header .navbar-dark .navbar-nav {
+        text-align: center;
+}
+
+header .navbar-dark .navbar-nav .nav-link.active {
+        font-weight: bold;
+}
+
+header .navbar-dark .navbar-nav .nav-link {
+        color: #fff;
+        padding: 10px 20px;
+        margin: 0 10px;
+        transition: all .3s;
+        border-radius: 20px;
+        display: inline-block;
+}
+
+header .btn {
+        background: #0cac0a;
+        color: #fff;
+        display: inline-block;
+
+
+}
+
+header .navbar-dark .navbar-nav .nav-link:hover {
+
+        color: #fff;
+
+        background: #FF3FB6;
+        transition: all .5s;
+}
+
+header .reg {
+        padding: 15px 50px;
+        font-size: large;
+        border-radius: 20px;
+
+}
+
+header .reg:hover {
+
+        color: #fff;
+        background: #0fbe0c;
+
+}
+
+header .navbar-dark .navbar-nav .btn:hover {
+        background: #11e71c;
+        color: #fff;
+        font-weight: normal;
+
+}
+
+header .title {
+
+        color: #fff;
+
+}
+
+header .title span {
+        font-weight: 600;
+        text-shadow: 1px 1px 5px rgb(150, 150, 163);
+
+
+}
+
+.icon {
+        width: 14px;
+        vertical-align: middle;
+}
+
+
+footer {
+        background: url(img/foottopbg.png) repeat-x;
+        background-size: contain;
+        color: #fff;
+}
+
+.footer_top {
+        padding-top: 40px;
+
+}
+
+
+.footer_top h2 {
+        font-size: 25px;
+        color: #c9c9c9;
+        margin-bottom: 25px;
+}
+
+.footer_top h2 img {
+        margin-right: 10px;
+}
+
+.footer_top .foot_col ul {
+        list-style-type: none;
+}
+
+.footer_top .foot_col ul li {
+        background: url(img/right.png) no-repeat;
+        background-position: top left;
+        padding-left: 25px;
+        margin-bottom: 10px;
+}
+
+.footer_top .foot_col ul li a {
+        color: #eeeeee;
+        text-decoration: none;
+
+
+}
+
+.footer_top .foot_col ul li a:hover {
+        color: #fff;
+}
